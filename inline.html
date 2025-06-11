@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>team section</title>
+   
+</head>
+<style>
+    .team-container{
+       margin-top: 20px;
+       text-align: center;
+       background-color: gold;
+        
+        
+    }
+    .team-member-filipcard{
+        background-color: black;
+        box-shadow: rgba(0, 0, 0, 4);
+        font-size: x-large;
+        display: inline-block;
+        padding: 20px;
+        margin: 20px;
+        width: 120vw;
+        height: 120vh;
+        text-align: center;
+       height: 100vh;
+            width: 100vw;
+            transition-duration: 0.3s;
+            transform-style: preserve-3d;
+            margin-bottom: 20px
+    }
+
+
+    
+        
+        .team-member-filipcard:hover{
+            transform: rotateX('180deg');
+            color: gold;
+        }
+        .team-member-filipcard-back{
+            height: 100vh;
+            width: 100vw;
+            backface-visibility: hidden;
+            overflow: hidden;
+             box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        
+    
+    .team-member img{
+        width: 100vw;
+        height: 100vh;
+        border-radius: 50px;
+    }
+    .team-member-hide{
+        display: none;
+    }
+    
+</style>
+<body>
+    
+    <div class="team-container">
+        <div class="team-member-filipcard" >
+            
+         <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e" width="300">
+             <P>member 1</P>
+            <p>CEO</p>
+            <p>jenny</p>
+            <P><strong>head of steel.corp ,the one spearheading massive growth of the company</strong> </P>
+            <br>
+            <DIV class="team-member-filipcard-back">
+            <p><strong> CEO  jenny LEADING STEEL.CORP SINCE 1997 THROUGH COURAGE,COMPASSION AND INTERGRITY</strong></p>
+            <P>hover over image too see more info</P>
+            </DIV>
+
+            
+            
+        </div>
+        <div class="team-member-hide">
+            <img src="https://images.dog.ceo/breeds/retriever-golden/n02099601_100.jpg" alt="member 2" width="300">
+        </div>
+        <div class="team-member-filipcard">
+            <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&w=300" alt="Indian CFO" width="300">
+            <P>memeber 3</P>
+            <P>CFO of steel.corp plays crucial role in maintaing the intergrity and success of steel.corp</P>
+            <div class="team-member-filipcard-back">
+                <P>CFO(bob)</P>
+                <P><strong>a experinced person been with steel.corp since day one </strong></P>
+                <p>hover over image too see more info</p>
+
+    </div>
+    <footer>
+        <P><strong>all rights reserved </strong></P>
+    </footer>
+</body>
+</html>
