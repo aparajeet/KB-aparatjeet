@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pagination Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      background-color: peachpuff;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 50px;
+    }
+
+    .pagination a {
+      text-decoration: none;
+      color: black;
+      padding: 10px 16px;
+      background-color: whitesmoke;
+      border: 1px solid  beige;
+      border-radius: 999px;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    .pagination a:hover {
+      background-color: royalblue;
+      color: white;
+      border-color: cyan;
+    }
+
+    .pagination a.active {
+      background-color: blue;
+      color: white;
+      border-color: lightblue;
+      font-weight: bold;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Product List</h2>
+  
+
+  <div class="pagination">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a href="#">2</a>
+    <a href="#" class="active">3</a>
+    <a href="#">4</a>
+    <a href="#">5</a>
+    <a href="#">&raquo;</a>
+  </div>
+
+</body>
+</html>

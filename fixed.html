@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo postions</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: cyan;
+         height:100vh;
+        width:100vw;
+    }
+    .header{
+        position: fixed;
+        top: 0;
+        color: yellow;
+        background-color: darkred;
+    }
+    
+    
+    .sidebar{
+        position: sticky;
+        width:auto;
+        height:auto;
+        color: black;
+
+    }
+    .container{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        height: 100vh;
+         width:100vw;
+         background-color: lightslategray;
+    }
+    .footer{
+        position: absolute; 
+        bottom: 0;
+        left: 50px;
+        background-color: lightsalmon;
+        color: black;
+        background-color: lightcoral;
+    }
+</style>
+<body>
+    <div class="header">
+        <h1>demo of header</h1>
+    </div>
+    <div class="container">
+        <P>demo of container</P>
+    </div>
+    <div  class="footer">
+        <p>demo of footer</p>
+    </div>
+    
+</body>
+</html>
