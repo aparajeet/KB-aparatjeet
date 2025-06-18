@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>loading bar</title>
+    <style>
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: bisque;
+            border: 2px solid black;
+        }
+        .container{
+            width: 100vw;
+            height: 20px;
+            background-color: lightsalmon;
+            display: inline-block;
+        }
+        .bar{
+            width:0%;
+            height: 100%;
+            color: blue;
+            animation: load 5s linear forwards;
+            background:linear-gradient( to right,blue,black);
+            box-shadow:(0 0 10px rgba(0,0,0,4));
+            
+            
+        }
+         @keyframes load{
+            from{
+                width:0%;
+            }
+            to{
+                width: 100%;
+            }
+        }
+        .label{
+            color: black;
+            font-style: italic;
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="bar"></div>
+        <div class="label">loading</div>
+
+</body>
+</html>
